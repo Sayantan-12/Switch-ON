@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.element1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid1{
+    width: 35%;
+    margin-right: 5%;
+}
+.vid2{
+    width: 35%;
+}
+.element2{
+    /*
+    display: flex;
+    max-width: 35%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10%;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.btn1, .btn2{
+    width: 100px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.btn1, .btn2:hover{
+    cursor: pointer;
+}
+.btn1{
+    margin-top: 10%;
+    margin-right: 35%;
+}
+.btn2{
+    margin-top: 10%;
+}
+@media screen and (max-width: 700px){
+    .btn1{
+        margin-right: 20%;
+    }
+    .btn1,.btn2{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 531px){
+    h1{
+        font-size: 30px;
+    }
+}
